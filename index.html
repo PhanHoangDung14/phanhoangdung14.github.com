@@ -6,7 +6,20 @@
     </head>
     <body>
         <h1>
-            Contact Us From
+            Contact Us
         </h1>
+        <script defer>
+            let bam_em_di = () => {
+                alert ("ban da gui di thanh cong")
+            }
+        </script>
+            <form action="contact.php" method="post">
+                <input type="text" name="name" id="name" placeholder="Your name" style="width: 100%;height: 50px;">
+                <br>
+                <input type="text" name="email" placeholder="Your email" style="width: 100%;height: 50px;">
+                <br>
+                <input type="message" id="message" placeholder="Message" style="width: 100%;height: 50px;">
+                <br>
+                <input type="button" value="Send Message" onclick="bam_em_di ()" style="width: 100%;height: 50px;">
     </body>
 </html>
