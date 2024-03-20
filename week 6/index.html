@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="text" id="hoten">
     <button onclick="xinchao ()">xin chao</button>
 </body>
 <script>
     function xinchao () {
-    var hoten = "Phan Dung"
-    var tuoi = 20 ;
-    alert ('xin chao ban' + hoten +'; Tuoi: ' + (tuoi + 2));
+    var hoten = document.getElementById('hoten').value;
+    alert ('xin chao ban' + hoten );
     alert ('chuc ban vui ve')
     }
 </script>
