@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ex02</title>
+<script language="javascript">
+var txta = prompt("Enter chieu dai");
+var txtb = prompt("Enter chieu rong");
+if (txta == null || txta == "" || isNaN(txta)) {
+alert("chieu dai is formatted incorrect ");
+} else if (txtb == null || txtb == "" || isNaN(txtb)) {
+alert("chieu rong is formatted incorrect ");
+} else {
+var result = parseFloat(txta) * parseFloat(txtb);
+alert("Dien tich:\n" +
+    txta + " * " + txtb +" = " + result);
+}
+var result = ((parseFloat(txta)+parseFloat(txtb))*2)
+alert("Chu vi:\n"+
+    (txta + "+" + txtb) + "*" + 2 +" = " + result
+);
+</script>
+</head>
+<body>
+</body>
+</html>
